@@ -1,0 +1,42 @@
+.dashboard-container {
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+  
+  .loan-types {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .loan-type {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer; /* Add cursor pointer */
+  }
+  
+  .loan-type:hover {
+    transform: translateY(-5px);
+  }
+  
+  .loan-info {
+    margin-left: 20px;
+  }
+  
+  .loan-icon {
+    width: 60px;
+    height: 60px;
+  }
+  
